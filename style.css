@@ -1,0 +1,57 @@
+html,body{
+    height: 100%;
+}
+.square{
+    clip-path: inset(0);
+    width: 430px;
+    height: 430px;
+   
+    background-color: rgba(217, 217, 218, 1);
+    position: relative;
+}
+.triangle{
+    border: 115px solid transparent;
+    border-right: 108px solid rgba(206, 54, 8, 1);
+    border-bottom: 0px solid rgba(206, 54, 8, 1);
+   
+}
+.big-circle{
+    position: absolute;
+    right: 187px;
+    bottom: 200px;
+    width: 339px;
+    height: 339px;
+    border-radius: 51%;
+
+    overflow: hidden;
+    background: rgba(37, 132, 86, 1);
+}
+.regtangle{
+    position: absolute;
+    left: 185px;
+    bottom: 80px;
+    width: 50.75px;
+    height: 330.13px;
+    transform: rotate(-43.38deg);
+
+    background-color: rgba(28, 63, 155, 1);
+}
+.rounded-rectangle{
+    position: absolute;
+    width: 324px;
+    height: 87px;
+    bottom: 55px;
+    left: 54px;
+    background: rgba(144, 16, 191, 1);
+
+    border-radius: 29px;
+}
+.circle{
+    position: absolute;
+    left: 242px;
+    bottom: 176px;
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    background-color: rgba(16, 163, 101, 1);
+}
